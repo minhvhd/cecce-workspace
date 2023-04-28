@@ -15,8 +15,17 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@cecce-workspace/sceptre/shell/feature": [
+        "libs/sceptre/shell/feature/src/index.ts"
+      ],
       "@libs/login/feature": ["libs/login/shell/feature/src/index.ts"],
-      "@libs/login/shell/ui/layout": ["libs/login/shell/ui/layout/src/index.ts"]
+      "@libs/login/shell/ui/layout": [
+        "libs/login/shell/ui/layout/src/index.ts"
+      ],
+      "@libs/sceptre/feature": ["libs/sceptre/shell/feature/src/index.ts"],
+      "@libs/sceptre/shell/ui/layout": [
+        "libs/sceptre/shell/ui/layout/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
