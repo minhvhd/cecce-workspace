@@ -1,0 +1,20 @@
+{
+  "name": "login-shell-feature",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/login/shell/feature/src",
+  "prefix": "cecce-workspace",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/login/shell/feature/**/*.ts",
+          "libs/login/shell/feature/**/*.html"
+        ]
+      }
+    }
+  }
+}

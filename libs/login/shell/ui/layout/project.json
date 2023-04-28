@@ -1,0 +1,20 @@
+{
+  "name": "login-shell-ui-layout",
+  "$schema": "../../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/login/shell/ui/layout/src",
+  "prefix": "cecce-workspace",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/login/shell/ui/layout/**/*.ts",
+          "libs/login/shell/ui/layout/**/*.html"
+        ]
+      }
+    }
+  }
+}
