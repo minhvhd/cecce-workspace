@@ -1,13 +1,12 @@
 import { Component } from "@angular/core";
-import { NxWelcomeComponent } from "./nx-welcome.component";
+import {RouterOutlet} from "@angular/router";
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
+  imports: [RouterOutlet],
   selector: "cecce-workspace-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"],
+  template: `
+    <router-outlet></router-outlet>
+  `
 })
-export class AppComponent {
-  title = "login";
-}
+export class AppComponent {}
