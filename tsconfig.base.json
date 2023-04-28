@@ -23,6 +23,12 @@
         "libs/login/shell/ui/layout/src/index.ts"
       ],
       "@libs/sceptre/feature": ["libs/sceptre/shell/feature/src/index.ts"],
+      "@libs/sceptre/login/data-access": [
+        "libs/sceptre/login/data-access/src/index.ts"
+      ],
+      "@libs/sceptre/login/feature": [
+        "libs/sceptre/login/feature/src/index.ts"
+      ],
       "@libs/sceptre/shell/ui/layout": [
         "libs/sceptre/shell/ui/layout/src/index.ts"
       ]
