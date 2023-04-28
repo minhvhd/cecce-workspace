@@ -1,1 +1,1 @@
-export * from './lib/login-layout.component';
+export * from './lib/layout.component';

@@ -9,4 +9,4 @@ import {CommonModule} from "@angular/common";
     <span class="text-blue-500">login layout work</span>
   `
 })
-export class LoginLayoutComponent {}
+export class LayoutComponent {}
